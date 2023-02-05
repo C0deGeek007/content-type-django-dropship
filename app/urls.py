@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    path('dropship/', include('dropship.urls')),
     path('user-management/', include('user.urls')),
     path('admin/', admin.site.urls),
 ]

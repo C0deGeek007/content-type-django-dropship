@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'user.apps.UserConfig',
     'rest_framework',
-    "graphene_django"
+    "graphene_django",
+    'dropship.apps.DropshipConfig'
 ]
 
 MIDDLEWARE = [
